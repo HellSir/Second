@@ -24,11 +24,13 @@ namespace Second
         public MainWindow()
         {
             InitializeComponent();
+            this.WindowState = WindowState.Maximized;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            IllnessWin illnessWin = new IllnessWin();
+            illnessWin.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -45,7 +47,8 @@ namespace Second
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            PatientsWin patientsWin = new PatientsWin();
+            patientsWin.Show();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)

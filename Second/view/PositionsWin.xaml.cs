@@ -23,6 +23,7 @@ namespace Second.view
         {
             InitializeComponent();
             GetPred(0);
+            this.WindowState = WindowState.Maximized;
         }
 
         private void GetPred(int index)

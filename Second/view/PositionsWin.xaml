@@ -15,6 +15,16 @@
             <Setter Property="Height" Value="35"/>
 
         </Style>
+        <Style TargetType="TextBox">
+
+            <Setter Property="Margin" Value="50 0 0 0"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="600"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+
+        </Style>
 
     </Window.Resources>
 
@@ -72,17 +82,14 @@
             <Grid>
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Код должности"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="code"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -92,17 +99,14 @@
             <Grid Grid.Row="1">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Наименование должности"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="name"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -112,17 +116,14 @@
             <Grid Grid.Row="2">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Оклад"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="oklad"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -132,17 +133,14 @@
             <Grid Grid.Row="3">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Обязанности"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"   
+                <TextBox  
                          Name="duties"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -152,17 +150,14 @@
             <Grid Grid.Row="4">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Требования"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="requirements"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>

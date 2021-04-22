@@ -15,6 +15,16 @@
             <Setter Property="Height" Value="35"/>
 
         </Style>
+        <Style TargetType="TextBox">
+
+            <Setter Property="Margin" Value="50 0 0 0"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="600"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+
+        </Style>
 
     </Window.Resources>
 
@@ -29,7 +39,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Text="Таблица 'Должности'"
+        <TextBlock Text="Таблица 'Сотрудники'"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    FontSize="25"
@@ -75,17 +85,14 @@
             <Grid>
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Код сотдрудника"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="code"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -95,17 +102,14 @@
             <Grid Grid.Row="1">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="ФИО"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="name"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -115,17 +119,14 @@
             <Grid Grid.Row="2">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Возраст"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="oklad"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -135,17 +136,14 @@
             <Grid Grid.Row="3">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Пол"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"   
+                <TextBox  
                          Name="duties"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -155,17 +153,14 @@
             <Grid Grid.Row="4">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Адрес"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="requirements"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -174,17 +169,14 @@
             <Grid Grid.Row="5">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Телефон"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="cost"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -193,17 +185,14 @@
             <Grid Grid.Row="6">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Паспортные данные"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                         Name="number_pass"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>
@@ -212,17 +201,14 @@
             <Grid Grid.Row="7">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="250"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Код должности"
                            VerticalAlignment="Center"
                            FontSize="20"/>
-                <TextBox Margin="50 0 0 0"
-                         FontSize="20"
-                         Height="40"
-                         Width="200"
+                <TextBox 
                          Name="code_dol"
                          Grid.Column="1"
                          VerticalContentAlignment="Center"/>

@@ -65,8 +65,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model1.cs" />
+    <Compile Include="view\IllnessWin.xaml.cs">
+      <DependentUpon>IllnessWin.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\MedicinesWin.xaml.cs">
       <DependentUpon>MedicinesWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view\PatientsWin.xaml.cs">
+      <DependentUpon>PatientsWin.xaml</DependentUpon>
     </Compile>
     <Compile Include="view\PositionsWin.xaml.cs">
       <DependentUpon>PositionsWin.xaml</DependentUpon>
@@ -91,7 +97,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="view\IllnessWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="view\MedicinesWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view\PatientsWin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
